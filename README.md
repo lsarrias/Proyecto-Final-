@@ -4,7 +4,6 @@ Para este proyecto, se utilizarán datos de secuencias genómicas de plantas per
 
 ![variedades-de-begonias](https://github.com/lsarrias/Proyecto-Final-/assets/171622163/48587ef2-ae36-482d-b153-fbba6924e52d)
 
-<iframe width="656" height="369" src="https://www.youtube.com/embed/3-72YDYKpPs" title="Diversificación del género Begonia L. (Begoniaceae) en América" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
+<iframe src="https://www.youtube.com/embed/3-72YDYKpPs"data-external= "1" width="560" height="315"> </iframe> 
 
 Vídeo sobre la diversificación del género Begonia en América: https://youtu.be/3-72YDYKpPs
