@@ -103,6 +103,7 @@ cd results
 $PROJ_DIR -s Begonia_sequence_Aligned.fasta -B 1000
 
 ```
+![Modelos filogenia](https://github.com/lsarrias/Proyecto-Final-/assets/171622163/be313548-53b1-4631-87d2-1509dbc2f29e)
 
 ## Resultados
 
