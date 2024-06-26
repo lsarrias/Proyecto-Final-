@@ -102,8 +102,11 @@ $PROJ_DIR -s Begonia_sequence_Aligned.fasta -B 1000
 ```{r}
 knitr::include_graphics("/c/Users/lsarr/Desktop/Proyecto_Final/results/Begonia_Filogenia.JPEG")
 ```
+*Árbol concenso generado en IQTREE*
 
 ![Begonia_Filogenia](https://github.com/lsarrias/Proyecto-Final-/assets/171622163/6a214855-1a81-4261-8eef-000e1329afd5)
+
+*Árbol concenso generado en Muscle online*
 
 ![Muscle](https://github.com/lsarrias/Proyecto-Final-/assets/171622163/b6cc8ef0-1365-4e86-934f-180b9f3a9445)
 
