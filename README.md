@@ -1,5 +1,7 @@
 # Estudios de *Begonia* en el mundo.
 ## Introducción
+Begoniaceae es una familia reconocida por sus numerosas especies ornamentales, se distribuye en los trópicos y subtrópicos, siendo la región norte de Sudamérica su principal centro de diversidad (Moonlight, 2013). . Las especies endémicas de Begonia en Ecuador se distribuyen en las tres regiones continentales, desde los 150 m hasta los 3535 m de altitud. A partir de los 1000, se encuentran 25 de las 28 especies endémicas, mientras que las restantes se distribuyen exclusivamente en los bosques bajos de la Amazonía y la Costa (Quintana & León-Yánez et al., 2011).
+
 Para este proyecto, se utilizarán datos de secuencias genómicas de plantas pertenecientes a la familia Begoniaceae. Específicamente, se emplearán secuencias de ADN completas o parciales de begonias disponibles en repositorios públicos como NCBI. Los datos fueron descargados en formato FASTA. El objetivo es generar una filogenia comprensiva de 20 especies de la familia Begoniaceae, con un enfoque particular en las especies de begonias endémicas del Ecuador.
 
 Vídeo sobre la diversificación del género *Begonia* en América: ```https://youtu.be/3-72YDYKpPs ```
@@ -125,10 +127,16 @@ Dada la limitación de recursos, no todas las especies pueden ser protegidas al 
 ![Distribución Begonia ludwigii](https://github.com/lsarrias/Proyecto-Final-/assets/171622163/16568033-f7ef-45ec-8c5f-3ad82cfd615c)
 
 #### Conservación Integrada y Educación
-Las filogenias pueden servir como herramientas educativas para aumentar la conciencia sobre la importancia de las begonias y la biodiversidad en general. Mostrar las conexiones evolutivas y la historia de las begonias puede ayudar a construir un argumento convincente para la conservación y el valor intrínseco de estas plantas. También puede inspirar a las comunidades locales y a los responsables políticos a participar activamente en los esfuerzos de conservación.
+Las filogenias pueden servir como herramientas educativas para aumentar la conciencia sobre la importancia de las begonias y la biodiversidad en general. Mostrar las conexiones evolutivas y la historia de las begonias puede ayudar a construir un argumento convincente para la conservación y el valor intrínseco de estas plantas. También puede inspirar a las comunidades locales y a los responsables políticos a participar activamente en los esfuerzos de conservación (Hanski, 2011).
+.
 
 ## Conclusiones
 La construcción y el análisis de una filogenia de begonias no solo contribuyen al conocimiento científico, sino que también tienen aplicaciones prácticas directas en la conservación de las especies de begonia endémicas de América. Proporciona un marco para entender mejor las relaciones evolutivas, evaluar la diversidad genética y desarrollar estrategias de conservación informadas y efectivas. Al integrar este conocimiento en las políticas y prácticas de conservación, podemos mejorar significativamente las probabilidades de supervivencia de estas especies únicas y valiosas.
 
 ## Referencias 
+Hanski, I. (2011). Habitat Loss, the Dynamics of Biodiversity, and a Perspective on Conservation. *Ambio*, 40(3), 248-255. https://doi.org/10.1007/s13280-011-
+0147-3
+Moonlight, P. (2013). *The biogeography of neotropical Begonia L.: correlation between mountain evolution and range evolution in an Andean-centered group*. MSc 
+Thesis, University of Edinburgh.
+Quintana, C., León-Yánez, S. (2011). Begoniaceae. En: León-Yánez, S., R. Valencia, N. Pitmam, L. Endara, C. Ulloa Ulloa y H. Navarrete (Eds). *Libro Rojo de Plantas Endémicas del Ecuador*. Publicaciones del Herbario QCA, Pontificia Universidad  Católica del Ecuador, Quito.
 
