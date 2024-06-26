@@ -126,6 +126,7 @@ Dada la limitación de recursos, no todas las especies pueden ser protegidas al 
 Las filogenias pueden servir como herramientas educativas para aumentar la conciencia sobre la importancia de las begonias y la biodiversidad en general. Mostrar las conexiones evolutivas y la historia de las begonias puede ayudar a construir un argumento convincente para la conservación y el valor intrínseco de estas plantas. También puede inspirar a las comunidades locales y a los responsables políticos a participar activamente en los esfuerzos de conservación.
 
 ## Conclusiones
+La construcción y el análisis de una filogenia de begonias no solo contribuyen al conocimiento científico, sino que también tienen aplicaciones prácticas directas en la conservación de las especies de begonia endémicas de América. Proporciona un marco para entender mejor las relaciones evolutivas, evaluar la diversidad genética y desarrollar estrategias de conservación informadas y efectivas. Al integrar este conocimiento en las políticas y prácticas de conservación, podemos mejorar significativamente las probabilidades de supervivencia de estas especies únicas y valiosas.
 
 ## Referencias 
 
