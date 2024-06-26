@@ -18,11 +18,11 @@ Las secuencias del gen Ycf2 fueron descargadas de NCBI en formato FASTA. Posteri
 
 ![Begonia ludwigii_Andres C  Palmer_iNaturalist](https://github.com/lsarrias/Proyecto-Final-/assets/171622163/98c386e5-e4b3-486f-875c-b46e59e73f92)
 
-*Alineamiento*
+# *Alineamiento*
 
 El archivo FASTA fue alineado utilizando el software Mesquite.
 
-*Construcción de la Filogenia*
+# *Construcción de la Filogenia*
 
 Para construir la filogenia, se utilizaron los siguientes comandos en IQ-TREE, un software para el análisis filogenético.
 
