@@ -7,15 +7,15 @@ Para este proyecto, se utilizarán datos de secuencias genómicas de plantas per
 Vídeo sobre la diversificación del género *Begonia* en América: ```https://youtu.be/3-72YDYKpPs ```
 
 # Métodos
-  # Obtención de secuencias 
+  ## Obtención de secuencias 
 Las secuencias del gen Ycf2 fueron descargadas de NCBI en formato FASTA. Posteriormente, se unieron todos los archivos FASTA en uno solo y se editó el formato para que los nombres quedaran en el formato Género_especie usando Sublime Text con la siguiente fórmula:
 
-*Find*
+#### *Find*
 ```{r}
 >^.*\b([A-Z][a-z]+_[a-z]+)\b.*$
 ```
 
-*Replace*
+#### *Replace*
 ```{r}
 >\1
 ```
