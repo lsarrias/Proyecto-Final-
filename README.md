@@ -136,7 +136,9 @@ La construcción y el análisis de una filogenia de begonias no solo contribuyen
 ## Referencias 
 Hanski, I. (2011). Habitat Loss, the Dynamics of Biodiversity, and a Perspective on Conservation. *Ambio*, 40(3), 248-255. https://doi.org/10.1007/s13280-011-
 0147-3
+
 Moonlight, P. (2013). *The biogeography of neotropical Begonia L.: correlation between mountain evolution and range evolution in an Andean-centered group*. MSc 
 Thesis, University of Edinburgh.
+
 Quintana, C., León-Yánez, S. (2011). Begoniaceae. En: León-Yánez, S., R. Valencia, N. Pitmam, L. Endara, C. Ulloa Ulloa y H. Navarrete (Eds). *Libro Rojo de Plantas Endémicas del Ecuador*. Publicaciones del Herbario QCA, Pontificia Universidad  Católica del Ecuador, Quito.
 
