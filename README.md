@@ -10,10 +10,14 @@ Vídeo sobre la diversificación del género *Begonia* en América: ```https://y
   # Obtención de secuencias 
 Las secuencias del gen Ycf2 fueron descargadas de NCBI en formato FASTA. Posteriormente, se unieron todos los archivos FASTA en uno solo y se editó el formato para que los nombres quedaran en el formato Género_especie usando Sublime Text con la siguiente fórmula:
 
+*Find*
 ```{r}
-*Find*: >^.*\b([A-Z][a-z]+_[a-z]+)\b.*$
+>^.*\b([A-Z][a-z]+_[a-z]+)\b.*$
+```
 
-*Replace*: >\1
+*Replace*
+```{r}
+>\1
 ```
 
 ![Begonia ludwigii_Andres C  Palmer_iNaturalist](https://github.com/lsarrias/Proyecto-Final-/assets/171622163/98c386e5-e4b3-486f-875c-b46e59e73f92)
