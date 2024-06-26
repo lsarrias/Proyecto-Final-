@@ -1,0 +1,290 @@
+IQ-TREE multicore version 2.0.6 for Windows 32-bit built May 30 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    LSACH (SSE4.2, 1 GB RAM)
+Command: C:\Users\lsarr\Desktop\iqtree-2.0.6-Windows32\bin\iqtree2.exe -s Begonia_sequence_Aligned.fasta -B 1000
+Seed:    11844 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Jun 25 13:40:55 2024
+Kernel:  SSE2 - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file Begonia_sequence_Aligned.fasta ... Nexus format detected
+Skipping unknown block (NOTES)...
+Skipping unknown block (CODONS)...
+Skipping unknown block (MESQUITECHARMODELS)...
+Skipping unknown block (MESQUITE)...
+WARNING: 1 sites contain only gaps or ambiguous characters.
+Alignment has 21 sequences with 169413 columns, 4153 distinct patterns
+5374 parsimony-informative, 1355 singleton sites, 162684 constant sites
+                        Gap/Ambiguity  Composition  p-value
+   1  Begonia_baccata          95.99%    failed      0.00%
+   2  Begonia_buddleiifolia    95.99%    failed      0.00%
+   3  Begonia_cathayana        95.97%    failed      0.00%
+   4  Begonia_coptidifolia      0.00%    failed      0.00%
+   5  Begonia_dipetala         95.97%    failed      0.00%
+   6  Begonia_dregei           95.96%    failed      0.00%
+   7  Begonia_fissistyla       95.99%    failed      0.00%
+   8  Begonia_foliosa          96.00%    failed      0.00%
+   9  Begonia_grandis          95.98%    failed      0.00%
+  10  Begonia_guangxiensis     95.96%    failed      0.00%
+  11  Begonia_leprosa          95.96%    failed      0.00%
+  12  Begonia_ludwigii         95.96%    failed      0.00%
+  13  Begonia_obsolescens      95.96%    failed      0.00%
+  14  Begonia_oxyloba          95.98%    failed      0.00%
+  15  Begonia_retinervia       95.96%    failed      0.00%
+  16  Begonia_rossmanniae      95.96%    failed      0.00%
+  17  Begonia_santos           95.95%    failed      0.00%
+  18  Begonia_smithiana        95.95%    failed      0.00%
+  19  Begonia_umbraculifolia   95.96%    failed      0.00%
+  20  Begonia_versicolor       95.96%    failed      0.00%
+  21  Rosa_rugosa              95.96%    failed      0.00%
+WARNING: 20 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                    91.40%  21 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: minimal branch length is reduced to 0.000000590273 for long alignment
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.007 seconds
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -296031.185
+2. Current log-likelihood: -296026.403
+3. Current log-likelihood: -296021.813
+4. Current log-likelihood: -296017.418
+5. Current log-likelihood: -296013.196
+6. Current log-likelihood: -296009.152
+7. Current log-likelihood: -296005.266
+8. Current log-likelihood: -296001.541
+9. Current log-likelihood: -295997.959
+10. Current log-likelihood: -295994.525
+11. Current log-likelihood: -295991.221
+12. Current log-likelihood: -295988.051
+13. Current log-likelihood: -295985.000
+14. Current log-likelihood: -295982.070
+15. Current log-likelihood: -295979.256
+16. Current log-likelihood: -295976.542
+17. Current log-likelihood: -295973.937
+18. Current log-likelihood: -295971.424
+19. Current log-likelihood: -295969.012
+20. Current log-likelihood: -295966.686
+21. Current log-likelihood: -295964.449
+22. Current log-likelihood: -295962.296
+23. Current log-likelihood: -295960.215
+24. Current log-likelihood: -295958.214
+25. Current log-likelihood: -295956.280
+26. Current log-likelihood: -295954.418
+27. Current log-likelihood: -295952.624
+28. Current log-likelihood: -295950.887
+29. Current log-likelihood: -295949.215
+30. Current log-likelihood: -295947.596
+31. Current log-likelihood: -295946.035
+32. Current log-likelihood: -295944.530
+33. Current log-likelihood: -295943.070
+34. Current log-likelihood: -295941.662
+35. Current log-likelihood: -295940.304
+36. Current log-likelihood: -295938.984
+37. Current log-likelihood: -295937.711
+38. Current log-likelihood: -295936.482
+39. Current log-likelihood: -295935.287
+40. Current log-likelihood: -295934.133
+41. Current log-likelihood: -295933.019
+42. Current log-likelihood: -295931.934
+43. Current log-likelihood: -295930.886
+44. Current log-likelihood: -295929.872
+Optimal log-likelihood: -295928.885
+Rate parameters:  A-C: 1.02457  A-G: 0.98262  A-T: 1.20400  C-G: 1.02012  C-T: 1.01646  G-T: 1.00000
+Base frequencies:  A: 0.284  C: 0.215  G: 0.215  T: 0.286
+Proportion of invariable sites: 0.011
+Gamma shape alpha: 0.511
+Parameters optimization took 44 rounds (4.031 sec)
+Time for fast ML tree search: 11.216 seconds
+
+NOTE: ModelFinder requires 44 MB RAM!
+ModelFinder will test up to 286 DNA models (sample size: 169413) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  GTR+F         300262.501   47  600619.001   600619.028   601090.886
+  2  GTR+F+I       300184.162   48  600464.324   600464.351   600946.248
+  3  GTR+F+G4      296093.846   48  592283.692   592283.720   592765.616
+  4  GTR+F+I+G4    296092.947   49  592283.894   592283.923   592775.859
+  5  GTR+F+R2      296338.824   49  592775.648   592775.677   593267.612
+  6  GTR+F+R3      296202.315   51  592506.630   592506.661   593018.675
+  7  GTR+F+R4      296058.231   53  592222.462   592222.495   592754.587
+  8  GTR+F+R5      295817.073   55  591744.146   591744.182   592296.351
+  9  GTR+F+R6      295686.410   57  591486.821   591486.860   592059.106
+ 10  GTR+F+R7      295674.838   59  591467.677   591467.719   592060.042
+ 22  SYM+R6        301505.067   54  603118.134   603118.169   603660.299
+ 23  SYM+R7        301483.715   56  603079.429   603079.467   603641.674
+ 35  TVM+F+R6      295668.778   56  591449.556   591449.594   592011.801
+ 36  TVM+F+R7      295666.278   58  591448.555   591448.596   592030.881
+ 48  TVMe+R6       301505.456   53  603116.912   603116.946   603649.037
+ 49  TVMe+R7       301485.990   55  603081.981   603082.017   603634.186
+ 61  TIM3+F+R6     295679.101   55  591468.202   591468.238   592020.407
+ 62  TIM3+F+R7     295679.431   57  591472.862   591472.901   592045.147
+ 74  TIM3e+R6      301574.897   52  603253.795   603253.827   603775.880
+ 75  TIM3e+R7      301562.226   54  603232.451   603232.486   603774.616
+ 87  TIM2+F+R6     295674.209   55  591458.418   591458.455   592010.623
+ 88  TIM2+F+R7     295673.309   57  591460.618   591460.657   592032.903
+100  TIM2e+R6      301560.681   52  603225.363   603225.396   603747.448
+101  TIM2e+R7      301544.828   54  603197.655   603197.690   603739.821
+113  TIM+F+R6      295674.841   55  591459.682   591459.718   592011.887
+114  TIM+F+R7      295675.638   57  591465.276   591465.315   592037.561
+126  TIMe+R6       301579.540   52  603263.079   603263.112   603785.164
+127  TIMe+R7       301570.357   54  603248.713   603248.748   603790.878
+139  TPM3u+F+R6    295679.602   54  591467.204   591467.239   592009.370
+140  TPM3u+F+R7    295679.643   56  591471.286   591471.323   592033.531
+152  TPM3+F+R6     295679.578   54  591467.155   591467.190   592009.320
+153  TPM3+F+R7     295679.597   56  591471.194   591471.232   592033.440
+165  TPM2u+F+R6    295674.537   54  591457.074   591457.109   591999.239
+166  TPM2u+F+R7    295673.389   56  591458.779   591458.817   592021.024
+178  TPM2+F+R6     295674.502   54  591457.004   591457.039   591999.169
+179  TPM2+F+R7     295673.262   56  591458.523   591458.561   592020.769
+191  K3Pu+F+R6     295675.224   54  591458.448   591458.483   592000.613
+192  K3Pu+F+R7     295675.817   56  591463.635   591463.672   592025.880
+204  K3P+R6        301579.729   51  603261.459   603261.490   603773.504
+205  K3P+R7        301570.709   53  603247.419   603247.453   603779.544
+217  TN+F+R6       295682.005   54  591472.011   591472.046   592014.176
+WARNING: Log-likelihood -295683 of TN+F+R7 worse than TN+F+R6 -295682
+218  TN+F+R7       295683.446   56  591478.892   591478.929   592041.137
+230  TNe+R6        301615.562   51  603333.124   603333.155   603845.169
+231  TNe+R7        301606.215   53  603318.429   603318.463   603850.554
+243  HKY+F+R6      295682.605   53  591471.211   591471.245   592003.336
+WARNING: Log-likelihood -295684 of HKY+F+R7 worse than HKY+F+R6 -295683
+244  HKY+F+R7      295683.659   55  591477.319   591477.355   592029.524
+256  K2P+R6        301616.032   50  603332.063   603332.093   603834.068
+257  K2P+R7        301606.545   52  603317.090   603317.122   603839.175
+269  F81+F+R6      295685.624   52  591475.247   591475.280   591997.332
+WARNING: Log-likelihood -295687 of F81+F+R7 worse than F81+F+R6 -295686
+270  F81+F+R7      295687.279   54  591482.557   591482.592   592024.722
+282  JC+R6         301629.072   49  603356.145   603356.174   603848.110
+283  JC+R7         301620.490   51  603342.980   603343.011   603855.024
+Akaike Information Criterion:           TVM+F+R7
+Corrected Akaike Information Criterion: TVM+F+R7
+Bayesian Information Criterion:         F81+F+R6
+Best-fit model: F81+F+R6 chosen according to BIC
+
+All model information printed to Begonia_sequence_Aligned.fasta.model.gz
+CPU time for ModelFinder: 1781.188 seconds (0h:29m:41s)
+Wall-clock time for ModelFinder: 1942.888 seconds (0h:32m:22s)
+Generating 1000 samples for ultrafast bootstrap (seed: 11844)...
+
+NOTE: 32 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -295685.624
+Optimal log-likelihood: -295685.615
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.284  C: 0.215  G: 0.215  T: 0.286
+Site proportion and rates:  (0.523,0.100) (0.082,0.510) (0.079,0.510) (0.081,0.510) (0.117,3.486) (0.117,3.539)
+Parameters optimization took 1 rounds (0.114 sec)
+Computing ML distances based on estimated model parameters... 0.016 sec
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing BIONJ tree...
+0.038 seconds
+Log-likelihood of BIONJ tree: -295865.199
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.982 second
+Computing log-likelihood of 98 initial trees ... 4.133 seconds
+Current best score: -295685.615
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -295685.601
+Iteration 10 / LogL: -295698.418 / Time: 0h:0m:17s
+Iteration 20 / LogL: -295695.010 / Time: 0h:0m:49s
+Finish initializing candidate tree set (12)
+Current best tree score: -295685.601 / CPU time: 46.783
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -295696.103 / Time: 0h:1m:4s (0h:2m:37s left)
+WARNING: NNI search needs unusual large number of steps (21) to converge!
+Iteration 40 / LogL: -295688.258 / Time: 0h:1m:19s (0h:2m:3s left)
+Iteration 50 / LogL: -295694.262 / Time: 0h:1m:32s (0h:1m:36s left)
+Log-likelihood cutoff on original alignment: -295715.019
+Iteration 60 / LogL: -295696.323 / Time: 0h:2m:4s (0h:1m:26s left)
+WARNING: NNI search needs unusual large number of steps (21) to converge!
+Iteration 70 / LogL: -295762.720 / Time: 0h:2m:50s (0h:1m:16s left)
+WARNING: NNI search needs unusual large number of steps (21) to converge!
+Iteration 80 / LogL: -295688.096 / Time: 0h:3m:23s (0h:0m:54s left)
+Iteration 90 / LogL: -295685.702 / Time: 0h:4m:10s (0h:0m:30s left)
+Iteration 100 / LogL: -295700.593 / Time: 0h:4m:45s (0h:0m:2s left)
+Log-likelihood cutoff on original alignment: -295715.019
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.980
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 110 / LogL: -295693.273 / Time: 0h:5m:23s (0h:4m:27s left)
+Iteration 120 / LogL: -295686.385 / Time: 0h:6m:0s (0h:4m:2s left)
+Iteration 130 / LogL: -295691.372 / Time: 0h:6m:37s (0h:3m:35s left)
+Iteration 140 / LogL: -295701.997 / Time: 0h:7m:16s (0h:3m:8s left)
+Iteration 150 / LogL: -295703.603 / Time: 0h:8m:0s (0h:2m:41s left)
+Log-likelihood cutoff on original alignment: -295713.823
+Iteration 160 / LogL: -295794.891 / Time: 0h:8m:39s (0h:2m:10s left)
+Iteration 170 / LogL: -295693.839 / Time: 0h:9m:15s (0h:1m:38s left)
+Iteration 180 / LogL: -295689.943 / Time: 0h:9m:55s (0h:1m:6s left)
+Iteration 190 / LogL: -295735.167 / Time: 0h:10m:35s (0h:0m:33s left)
+Iteration 200 / LogL: -295704.592 / Time: 0h:11m:10s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -295713.326
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.984
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+WARNING: NNI search needs unusual large number of steps (21) to converge!
+WARNING: NNI search needs unusual large number of steps (21) to converge!
+Iteration 210 / LogL: -295691.286 / Time: 0h:11m:56s (0h:5m:8s left)
+Iteration 220 / LogL: -295698.830 / Time: 0h:12m:24s (0h:4m:31s left)
+Iteration 230 / LogL: -295792.676 / Time: 0h:13m:0s (0h:3m:58s left)
+Iteration 240 / LogL: -295706.282 / Time: 0h:13m:41s (0h:3m:26s left)
+Iteration 250 / LogL: -295692.225 / Time: 0h:14m:22s (0h:2m:53s left)
+Log-likelihood cutoff on original alignment: -295713.727
+Iteration 260 / LogL: -295697.328 / Time: 0h:15m:1s (0h:2m:19s left)
+Iteration 270 / LogL: -295700.308 / Time: 0h:15m:39s (0h:1m:44s left)
+Iteration 280 / LogL: -295700.577 / Time: 0h:16m:9s (0h:1m:9s left)
+Iteration 290 / LogL: -295723.716 / Time: 0h:16m:58s (0h:0m:35s left)
+Iteration 300 / LogL: -295685.654 / Time: 0h:17m:35s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -295713.699
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.994
+TREE SEARCH COMPLETED AFTER 300 ITERATIONS / Time: 0h:17m:35s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -295685.601
+Optimal log-likelihood: -295685.594
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.284  C: 0.215  G: 0.215  T: 0.286
+Site proportion and rates:  (0.524,0.100) (0.079,0.510) (0.081,0.510) (0.082,0.510) (0.117,3.486) (0.118,3.539)
+Parameters optimization took 1 rounds (0.363 sec)
+BEST SCORE FOUND : -295685.594
+Creating bootstrap support values...
+Split supports printed to NEXUS file Begonia_sequence_Aligned.fasta.splits.nex
+Total tree length: 42.022
+
+Total number of iterations: 300
+CPU time used for tree search: 923.125 sec (0h:15m:23s)
+Wall-clock time used for tree search: 1053.123 sec (0h:17m:33s)
+Total CPU time used: 926.125 sec (0h:15m:26s)
+Total wall-clock time used: 1056.461 sec (0h:17m:36s)
+
+Computing bootstrap consensus tree...
+Reading input file Begonia_sequence_Aligned.fasta.splits.nex...
+21 taxa and 96 splits.
+Consensus tree written to Begonia_sequence_Aligned.fasta.contree
+Reading input trees file Begonia_sequence_Aligned.fasta.contree
+Log-likelihood of consensus tree: -295688.003
+
+Analysis results written to: 
+  IQ-TREE report:                Begonia_sequence_Aligned.fasta.iqtree
+  Maximum-likelihood tree:       Begonia_sequence_Aligned.fasta.treefile
+  Likelihood distances:          Begonia_sequence_Aligned.fasta.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          Begonia_sequence_Aligned.fasta.splits.nex
+  Consensus tree:                Begonia_sequence_Aligned.fasta.contree
+  Screen log file:               Begonia_sequence_Aligned.fasta.log
+
+Date and Time: Tue Jun 25 14:30:57 2024
