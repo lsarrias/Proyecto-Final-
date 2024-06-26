@@ -4,6 +4,10 @@
 # Introducción
 Para este proyecto, se utilizarán datos de secuencias genómicas de plantas pertenecientes a la familia Begoniaceae. Específicamente, se emplearán secuencias de ADN completas o parciales de begonias disponibles en repositorios públicos como NCBI. Los datos fueron descargados en formato FASTA. El objetivo es generar una filogenia comprensiva de 20 especies de la familia Begoniaceae, con un enfoque particular en las especies de begonias endémicas del Ecuador.
 
+```{r}
+Vídeo sobre la diversificación del género *Begonia* en América: https://youtu.be/3-72YDYKpPs
+```
+
 # Métodos
   # Obtención de secuencias 
 Las secuencias del gen Ycf2 fueron descargadas de NCBI en formato FASTA. Posteriormente, se unieron todos los archivos FASTA en uno solo y se editó el formato para que los nombres quedaran en el formato Género_especie usando Sublime Text con la siguiente fórmula:
@@ -17,16 +21,6 @@ El archivo FASTA fue alineado utilizando el software Mesquite.
 
 *Construcción de la Filogenia*
 Para construir la filogenia, se utilizaron los siguientes comandos en IQ-TREE, un software para el análisis filogenético.
-
-# Resultados
-
-*Subir la imagen de la filogenia*
-```{r}
-knitr::include_graphics("/c/Users/lsarr/Desktop/Proyecto_Final/results/Begonia_Filogenia.JPEG")
-```
-
-![Begonia_Filogenia](https://github.com/lsarrias/Proyecto-Final-/assets/171622163/6a214855-1a81-4261-8eef-000e1329afd5)
-
 
 
 ```{r}
@@ -98,5 +92,12 @@ $PROJ_DIR -s Begonia_sequence_Aligned.fasta -B 1000
 
 ```
 
+# Resultados
 
-Vídeo sobre la diversificación del género *Begonia* en América: https://youtu.be/3-72YDYKpPs
+*Subir la imagen de la filogenia*
+```{r}
+knitr::include_graphics("/c/Users/lsarr/Desktop/Proyecto_Final/results/Begonia_Filogenia.JPEG")
+```
+
+![Begonia_Filogenia](https://github.com/lsarrias/Proyecto-Final-/assets/171622163/6a214855-1a81-4261-8eef-000e1329afd5)
+
