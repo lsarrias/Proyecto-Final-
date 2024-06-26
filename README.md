@@ -1,4 +1,4 @@
-# Filogenómica en la Conservación de Especies: Un Enfoque en *Begonias* Endémicas de América
+# Filogenómica en la Conservación de Especies: Un Enfoque en *Begonia* Endémicas de América
 ## Introducción
 Begoniaceae es una familia reconocida por sus numerosas especies ornamentales, se distribuye en los trópicos y subtrópicos, siendo la región norte de Sudamérica su principal centro de diversidad (Moonlight, 2013).Las especies endémicas de Begonia en Ecuador se distribuyen en las tres regiones continentales, desde los 150 m hasta los 3535 m de altitud. A partir de los 1000, se encuentran 25 de las 28 especies endémicas, mientras que las restantes se distribuyen exclusivamente en los bosques bajos de la Amazonía y la Costa (Quintana & León-Yánez et al., 2011).
 
