@@ -9,16 +9,20 @@ Para este proyecto, se utilizarán datos de secuencias genómicas de plantas per
 Las secuencias del gen Ycf2 fueron descargadas de NCBI en formato FASTA. Posteriormente, se unieron todos los archivos FASTA en uno solo y se editó el formato para que los nombres quedaran en el formato Género_especie usando Sublime Text con la siguiente fórmula:
 
 *Find*: >^.*\b([A-Z][a-z]+_[a-z]+)\b.*$
+
 *Replace*: >\1
 
 # Alineamiento
 El archivo FASTA fue alineado utilizando el software Mesquite.
 
-*Construcción de la Filogenia*
+# Construcción de la Filogenia*
 Para construir la filogenia, se utilizaron los siguientes comandos en IQ-TREE, un software para el análisis filogenético.
 
-#Subir la imagen de la filogenia
+# Resultados
+
+# Subir la imagen de la filogenia
 knitr::include_graphics("/c/Users/lsarr/Desktop/Proyecto_Final/results/Begonia_Filogenia.JPEG")
+
 
 
 ```{r}
