@@ -23,6 +23,8 @@ Para construir la filogenia, se utilizaron los siguientes comandos en IQ-TREE, u
 # Subir la imagen de la filogenia
 knitr::include_graphics("/c/Users/lsarr/Desktop/Proyecto_Final/results/Begonia_Filogenia.JPEG")
 
+![Begonia_Filogenia](https://github.com/lsarrias/Proyecto-Final-/assets/171622163/6a214855-1a81-4261-8eef-000e1329afd5)
+
 
 
 ```{r}
@@ -92,7 +94,7 @@ cd results
 # Ejecutar IQ-TREE con el archivo FASTA alineado y realizar 1000 réplicas bootstrap utilizando la variable de entorno
 $PROJ_DIR -s Begonia_sequence_Aligned.fasta -B 1000
 
+```
 
-![Begonia gif](https://github.com/lsarrias/Proyecto-Final-/assets/171622163/7874c265-21ed-4571-8a12-e0781366faf8)
 
 Vídeo sobre la diversificación del género *Begonia* en América: https://youtu.be/3-72YDYKpPs
