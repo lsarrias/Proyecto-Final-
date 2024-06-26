@@ -3,7 +3,7 @@
 Begoniaceae es una familia reconocida por sus numerosas especies ornamentales, se distribuye en los trópicos y subtrópicos, siendo la región norte de Sudamérica su principal centro de diversidad (Moonlight, 2013).Las especies endémicas de *Begonia* en Ecuador se distribuyen en las tres regiones continentales, desde los 150 m hasta los 3535 m de altitud. A partir de los 1000, se encuentran 25 de las 28 especies endémicas, mientras que las restantes se distribuyen exclusivamente en los bosques bajos de la Amazonía y la Costa (Quintana & León-Yánez et al., 2011).
 
 ![Begonia hitcockii_Laura Arrias_iNaturalist](https://github.com/lsarrias/Proyecto-Final-/assets/171622163/6a88406e-3c92-492d-a8cf-8695e520c261)
-#####Foto: Laura Arrias. iNaturalist Ecuador.
+##### Foto: Laura Arrias. iNaturalist Ecuador.
 
 Para este proyecto, se utilizarán datos de secuencias genómicas de plantas pertenecientes a la familia Begoniaceae. Específicamente, se emplearán secuencias de ADN completas o parciales de begonias disponibles en repositorios públicos como NCBI. Los datos fueron descargados en formato FASTA. El objetivo es generar una filogenia comprensiva de 20 especies de la familia Begoniaceae, con un enfoque particular en las especies de begonias endémicas del Ecuador.
 
@@ -26,7 +26,7 @@ Las secuencias del gen Ycf2 fueron descargadas de NCBI en formato FASTA. Posteri
 ```
 
 ![Begonia ludwigii_Andres C  Palmer_iNaturalist](https://github.com/lsarrias/Proyecto-Final-/assets/171622163/98c386e5-e4b3-486f-875c-b46e59e73f92)
-#####Foto: Andrés C. Palmer. iNaturalist Perú.
+##### Foto: Andrés C. Palmer. iNaturalist Perú.
 
 # *Alineamiento*
 
