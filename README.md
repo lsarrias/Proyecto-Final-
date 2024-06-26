@@ -105,6 +105,8 @@ knitr::include_graphics("/c/Users/lsarr/Desktop/Proyecto_Final/results/Begonia_F
 
 ![Begonia_Filogenia](https://github.com/lsarrias/Proyecto-Final-/assets/171622163/6a214855-1a81-4261-8eef-000e1329afd5)
 
+![Muscle](https://github.com/lsarrias/Proyecto-Final-/assets/171622163/b6cc8ef0-1365-4e86-934f-180b9f3a9445)
+
 # Discusión
 
 # Conclusiones
