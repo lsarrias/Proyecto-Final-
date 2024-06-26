@@ -1,0 +1,123 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=21;
+	taxlabels
+	Begonia_baccata
+	Begonia_buddleiifolia
+	Begonia_cathayana
+	Begonia_coptidifolia
+	Begonia_dipetala
+	Begonia_dregei
+	Begonia_fissistyla
+	Begonia_foliosa
+	Begonia_grandis
+	Begonia_guangxiensis
+	Begonia_leprosa
+	Begonia_ludwigii
+	Begonia_obsolescens
+	Begonia_oxyloba
+	Begonia_retinervia
+	Begonia_rossmanniae
+	Begonia_santos
+	Begonia_smithiana
+	Begonia_umbraculifolia
+	Begonia_versicolor
+	Rosa_rugosa
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (Begonia_baccata:1.0E-6,(((((Begonia_buddleiifolia:0.001537,Begonia_foliosa:0.089193):2.77E-4,Begonia_fissistyla:1.0E-6):2.969985,(Begonia_coptidifolia:10.255232,Rosa_rugosa:10.004113):10.004113):2.175475,(Begonia_grandis:0.739903,Begonia_oxyloba:1.845374):0.973469):1.3696,((Begonia_cathayana:0.189648,Begonia_versicolor:0.178014):0.184304,Begonia_smithiana:1.0E-6):0.168556):0.137982,((Begonia_dipetala:6.25E-4,Begonia_santos:0.002656):0.160821,(((Begonia_dregei:4.41E-4,(Begonia_ludwigii:5.88E-4,Begonia_rossmanniae:0.002063):1.46E-4):9.83E-4,(((Begonia_guangxiensis:1.46E-4,Begonia_obsolescens:2.94E-4):1.0E-6,Begonia_umbraculifolia:1.0E-6):1.0E-6,Begonia_retinervia:1.46E-4):4.8E-5):0.030341,Begonia_leprosa:0.05691):0.168942):0.309203);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="POLAR";
+	set layout.zoom=870;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=7;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute=null;
+	set nodeShapeExternal.isShown=true;
+	set nodeShapeExternal.minSize=13.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute=null;
+	set nodeShapeInternal.colourAttribute=null;
+	set nodeShapeInternal.isShown=true;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=0;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=true;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=3.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="Arial";
+	set tipLabels.fontSize=11;
+	set tipLabels.fontStyle=2;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=true;
+	set trees.transformType="cladogram";
+end;
+
