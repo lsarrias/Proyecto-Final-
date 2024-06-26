@@ -17,9 +17,11 @@ Las secuencias del gen Ycf2 fueron descargadas de NCBI en formato FASTA. Posteri
 ```
 
 *Alineamiento*
+
 El archivo FASTA fue alineado utilizando el software Mesquite.
 
 *Construcción de la Filogenia*
+
 Para construir la filogenia, se utilizaron los siguientes comandos en IQ-TREE, un software para el análisis filogenético.
 
 
@@ -100,4 +102,10 @@ knitr::include_graphics("/c/Users/lsarr/Desktop/Proyecto_Final/results/Begonia_F
 ```
 
 ![Begonia_Filogenia](https://github.com/lsarrias/Proyecto-Final-/assets/171622163/6a214855-1a81-4261-8eef-000e1329afd5)
+
+# Discusión
+
+# Conclusiones
+
+# Referencias 
 
